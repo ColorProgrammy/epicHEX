@@ -1,16 +1,17 @@
 {
   "name": "epichex-editor",
-  "version": "1.0.0",
-  "description": "EpicHEX Image Format Editor",
-  "main": "main.js",
+  "version": "1.1.0",
+  "description": "EpicHEX Image Format Editor v2",
+  "main": "source/main.js",
   "scripts": {
-    "start": "node main.js",
-    "test": "node main.js"
+    "start": "node source/main.js",
+    "test": "node source/main.js",
+    "viewer": "node source/viewer.js"
   },
   "dependencies": {
     "blessed": "^0.1.81"
   },
-  "keywords": ["image", "format", "ehex", "editor"],
-  "author": "EpicHEX Team",
+  "keywords": ["image", "format", "ehex", "editor", "v2"],
+  "author": "ColorProgrammy",
   "license": "MIT"
 }
