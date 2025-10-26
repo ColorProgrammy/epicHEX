@@ -160,7 +160,7 @@ class EHEXApp {
             height: 3,
             border: { type: 'line' },
             style: { border: { fg: 'cyan' } },
-            content: ' EpicHEX Editor | F1:Save F2:Load F3:New F4:Color F5:Brush F10:Quit '
+            content: ' EpicHEX Editor v1.01 | F1:Save F2:Load F3:New F4:Color F5:Brush F10:Quit | Made by ColorProgrammy '
         });
 
         // Canvas area
@@ -290,7 +290,7 @@ class EHEXApp {
                 const char = this.getColorChar(r, g, b);
                 
                 if (x === this.cursorX && y === this.cursorY) {
-                    line += `{inverse}${char}{/inverse}`;
+                    line += `${char}`;
                 } else {
                     line += char;
                 }
