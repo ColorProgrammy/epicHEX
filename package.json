@@ -1,0 +1,16 @@
+{
+  "name": "epichex-editor",
+  "version": "1.0.0",
+  "description": "EpicHEX Image Format Editor",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node main.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81"
+  },
+  "keywords": ["image", "format", "ehex", "editor"],
+  "author": "EpicHEX Team",
+  "license": "MIT"
+}
